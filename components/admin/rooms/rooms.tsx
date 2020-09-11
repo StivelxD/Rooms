@@ -44,37 +44,53 @@ const Rooms = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-2 mt-10">
-        <div>
+      <div className="grid grid-cols-4 gap-4 mt-10">
+        <div className="flex flex-col w-84 h-72 bg-green-400">
           <div>
-            <img />
+            <img
+              src="/static/images/conejo-grande.png"
+              alt=""
+              className="w-full h-56 object-cover"
+            />
+          </div>
+          <div className="flex">
+            <p className="bg-black text-white px-6 py-4 text-lg">01</p>
+            <p className="bg-blue-400 text-black text-lg px-24 py-4">
+              Disponible
+            </p>
+          </div>
+        </div>
+        <div className="bg-green-500">
+          <div>
+            <img src="/static/images/conejo-grande.png" alt="" />
           </div>
           <div>
-            <span>01</span> <span>Disponible</span>
+            <span className="bg-black text-white px-5 py-3">02</span>
+            <span className="bg-blue-400 text-white px-16 py-3 -ml-1">
+              Disponible
+            </span>
           </div>
         </div>
         <div>
           <div>
-            <img />
+            <img src="/static/images/conejo-grande.png" alt="" />
           </div>
           <div>
-            <span>01</span> <span>Disponible</span>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img />
-          </div>
-          <div>
-            <span>01</span> <span>Disponible</span>
+            <span className="bg-black text-white px-5 py-3">03</span>
+            <span className="bg-blue-400 text-white px-16 py-3 -ml-1">
+              Disponible
+            </span>
           </div>
         </div>
         <div>
           <div>
-            <img />
+            <img src="/static/images/conejo-grande.png" alt="" />
           </div>
           <div>
-            <span>01</span> <span>Disponible</span>
+            <span className="bg-black text-white px-5 py-3">04</span>
+            <span className="bg-gray-700 text-white px-16 py-3 -ml-1">
+              No Disponible
+            </span>
           </div>
         </div>
       </div>
